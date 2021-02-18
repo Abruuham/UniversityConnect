@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135BB3E325D88835004C1E89 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3E225D88835004C1E89 /* User.swift */; };
+		135BB3E625D92334004C1E89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3E525D92334004C1E89 /* HomeViewController.swift */; };
+		135BB3F425D931B3004C1E89 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3F325D931B3004C1E89 /* BottomViewController.swift */; };
+		135BB3F925D93498004C1E89 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135BB3F825D93498004C1E89 /* BottomSheetViewController.xib */; };
 		13F7481A25D62E1D0095A89D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481925D62E1D0095A89D /* AppDelegate.swift */; };
 		13F7481C25D62E1D0095A89D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481B25D62E1D0095A89D /* SceneDelegate.swift */; };
 		13F7481E25D62E1D0095A89D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481D25D62E1D0095A89D /* ViewController.swift */; };
 		13F7482125D62E1D0095A89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F7481F25D62E1D0095A89D /* Main.storyboard */; };
 		13F7482325D62E200095A89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F7482225D62E200095A89D /* Assets.xcassets */; };
 		13F7482625D62E200095A89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F7482425D62E200095A89D /* LaunchScreen.storyboard */; };
+		13F7483E25D63BD60095A89D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7483D25D63BD60095A89D /* Extensions.swift */; };
+		13F7485725D670B20095A89D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13F7485625D670B20095A89D /* GoogleService-Info.plist */; };
+		6EBCB606BB5FBC04CD068A3E /* Pods_UniversityConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDC3B55AACA106FE163357C /* Pods_UniversityConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027E9B1785E5E1EBB0CB3CF9 /* Pods-UniversityConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityConnect.debug.xcconfig"; path = "Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		0946065D55C5AFA318F2426F /* Pods-UniversityConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityConnect.release.xcconfig"; path = "Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect.release.xcconfig"; sourceTree = "<group>"; };
+		135BB3E225D88835004C1E89 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		135BB3E525D92334004C1E89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		135BB3F325D931B3004C1E89 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		135BB3F825D93498004C1E89 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
 		13F7481625D62E1D0095A89D /* UniversityConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F7481925D62E1D0095A89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F7481B25D62E1D0095A89D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,9 @@
 		13F7482225D62E200095A89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F7482525D62E200095A89D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F7482725D62E200095A89D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F7483D25D63BD60095A89D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13F7485625D670B20095A89D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEDC3B55AACA106FE163357C /* Pods_UniversityConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversityConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBCB606BB5FBC04CD068A3E /* Pods_UniversityConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135BB3FC25D93531004C1E89 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				135BB3F825D93498004C1E89 /* BottomSheetViewController.xib */,
+				135BB3F325D931B3004C1E89 /* BottomViewController.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		13F7480D25D62E1D0095A89D = {
 			isa = PBXGroup;
 			children = (
 				13F7481825D62E1D0095A89D /* UniversityConnect */,
 				13F7481725D62E1D0095A89D /* Products */,
+				514158E663B1E03C03941259 /* Pods */,
+				40ACA6DD8BF3A194C9D45B60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,9 @@
 		13F7481825D62E1D0095A89D /* UniversityConnect */ = {
 			isa = PBXGroup;
 			children = (
+				135BB3FC25D93531004C1E89 /* BottomSheet */,
+				13F7483C25D63BC70095A89D /* Extensions */,
+				13F7485625D670B20095A89D /* GoogleService-Info.plist */,
 				13F7481925D62E1D0095A89D /* AppDelegate.swift */,
 				13F7481B25D62E1D0095A89D /* SceneDelegate.swift */,
 				13F7481D25D62E1D0095A89D /* ViewController.swift */,
@@ -63,8 +94,35 @@
 				13F7482225D62E200095A89D /* Assets.xcassets */,
 				13F7482425D62E200095A89D /* LaunchScreen.storyboard */,
 				13F7482725D62E200095A89D /* Info.plist */,
+				135BB3E225D88835004C1E89 /* User.swift */,
+				135BB3E525D92334004C1E89 /* HomeViewController.swift */,
 			);
 			path = UniversityConnect;
+			sourceTree = "<group>";
+		};
+		13F7483C25D63BC70095A89D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13F7483D25D63BD60095A89D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40ACA6DD8BF3A194C9D45B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC3B55AACA106FE163357C /* Pods_UniversityConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		514158E663B1E03C03941259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				027E9B1785E5E1EBB0CB3CF9 /* Pods-UniversityConnect.debug.xcconfig */,
+				0946065D55C5AFA318F2426F /* Pods-UniversityConnect.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13F7482A25D62E200095A89D /* Build configuration list for PBXNativeTarget "UniversityConnect" */;
 			buildPhases = (
+				A5B67383FC8372F6CD3A83CE /* [CP] Check Pods Manifest.lock */,
 				13F7481225D62E1D0095A89D /* Sources */,
 				13F7481325D62E1D0095A89D /* Frameworks */,
 				13F7481425D62E1D0095A89D /* Resources */,
+				24370934DA6D48B6BE577F3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F7485725D670B20095A89D /* GoogleService-Info.plist in Resources */,
+				135BB3F925D93498004C1E89 /* BottomSheetViewController.xib in Resources */,
 				13F7482625D62E200095A89D /* LaunchScreen.storyboard in Resources */,
 				13F7482325D62E200095A89D /* Assets.xcassets in Resources */,
 				13F7482125D62E1D0095A89D /* Main.storyboard in Resources */,
@@ -132,14 +194,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24370934DA6D48B6BE577F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B67383FC8372F6CD3A83CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversityConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13F7481225D62E1D0095A89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135BB3F425D931B3004C1E89 /* BottomViewController.swift in Sources */,
 				13F7481E25D62E1D0095A89D /* ViewController.swift in Sources */,
 				13F7481A25D62E1D0095A89D /* AppDelegate.swift in Sources */,
 				13F7481C25D62E1D0095A89D /* SceneDelegate.swift in Sources */,
+				135BB3E325D88835004C1E89 /* User.swift in Sources */,
+				13F7483E25D63BD60095A89D /* Extensions.swift in Sources */,
+				135BB3E625D92334004C1E89 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +391,14 @@
 		};
 		13F7482B25D62E200095A89D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027E9B1785E5E1EBB0CB3CF9 /* Pods-UniversityConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YS5KGPXS7;
 				INFOPLIST_FILE = UniversityConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +412,14 @@
 		};
 		13F7482C25D62E200095A89D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0946065D55C5AFA318F2426F /* Pods-UniversityConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YS5KGPXS7;
 				INFOPLIST_FILE = UniversityConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
