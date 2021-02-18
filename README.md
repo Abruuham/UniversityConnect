@@ -32,8 +32,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <h2 align="center">Under Construction</h2>
+  <a href="https://github.com/Abruuham/UniversityConnect">
+    <img src="wip.gif" width="800" height="500" align="center">
   </a>
 
   <h3 align="center">University Connect</h3>
