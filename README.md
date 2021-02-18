@@ -37,7 +37,7 @@
     <img src="wip.gif" width="800" height="500" align="center">
   </a>
 
-  <h3 align="center">University Connect</h3>
+  <h1 align="center">University Connect</h1>
 
   <p align="center">
     University Connect allows users to socially interact with one another while on campus. University Connect 
