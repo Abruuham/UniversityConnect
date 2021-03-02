@@ -11,9 +11,25 @@
 		135BB3E625D92334004C1E89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3E525D92334004C1E89 /* HomeViewController.swift */; };
 		135BB3F425D931B3004C1E89 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3F325D931B3004C1E89 /* BottomViewController.swift */; };
 		135BB3F925D93498004C1E89 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135BB3F825D93498004C1E89 /* BottomSheetViewController.xib */; };
+		13C88AD025ECCA130010143C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C88ACF25ECCA130010143C /* OnboardingViewController.swift */; };
+		13C88ADF25ECD5A90010143C /* GothamRoundedBook_21018.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD325ECD5A10010143C /* GothamRoundedBook_21018.ttf */; };
+		13C88AE025ECD5A90010143C /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD425ECD5A20010143C /* GothamRounded-Medium.otf */; };
+		13C88AE125ECD5A90010143C /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD525ECD5A30010143C /* GothamRounded-MediumItalic.otf */; };
+		13C88AE225ECD5A90010143C /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD625ECD5A30010143C /* GothamRounded-BookItalic.otf */; };
+		13C88AE325ECD5A90010143C /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD725ECD5A40010143C /* GothamRounded-Book.otf */; };
+		13C88AE425ECD5A90010143C /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD825ECD5A50010143C /* GothamRounded-Bold.otf */; };
+		13C88AE525ECD5A90010143C /* GothamRoundedLight_21020.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88AD925ECD5A50010143C /* GothamRoundedLight_21020.ttf */; };
+		13C88AE625ECD5A90010143C /* GothamRoundedMedium_21022.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88ADA25ECD5A60010143C /* GothamRoundedMedium_21022.ttf */; };
+		13C88AE725ECD5A90010143C /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88ADB25ECD5A70010143C /* GothamRounded-BoldItalic.otf */; };
+		13C88AE825ECD5A90010143C /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88ADC25ECD5A80010143C /* GothamRounded-Light.otf */; };
+		13C88AE925ECD5A90010143C /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88ADD25ECD5A80010143C /* GothamRounded-LightItalic.otf */; };
+		13C88AEA25ECD5A90010143C /* GothamRoundedBold_21016.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13C88ADE25ECD5A90010143C /* GothamRoundedBold_21016.ttf */; };
+		13C88AED25ECD8EA0010143C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C88AEC25ECD8EA0010143C /* SignUpViewController.swift */; };
+		13C88B8025ED12490010143C /* SocialManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C88B7F25ED12490010143C /* SocialManagerProtocol.swift */; };
+		13C88B8725ED79720010143C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C88B8625ED79720010143C /* Home.storyboard */; };
 		13F7481A25D62E1D0095A89D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481925D62E1D0095A89D /* AppDelegate.swift */; };
 		13F7481C25D62E1D0095A89D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481B25D62E1D0095A89D /* SceneDelegate.swift */; };
-		13F7481E25D62E1D0095A89D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481D25D62E1D0095A89D /* ViewController.swift */; };
+		13F7481E25D62E1D0095A89D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7481D25D62E1D0095A89D /* LoginViewController.swift */; };
 		13F7482125D62E1D0095A89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F7481F25D62E1D0095A89D /* Main.storyboard */; };
 		13F7482325D62E200095A89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F7482225D62E200095A89D /* Assets.xcassets */; };
 		13F7482625D62E200095A89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F7482425D62E200095A89D /* LaunchScreen.storyboard */; };
@@ -29,10 +45,26 @@
 		135BB3E525D92334004C1E89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		135BB3F325D931B3004C1E89 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
 		135BB3F825D93498004C1E89 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
+		13C88ACF25ECCA130010143C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		13C88AD325ECD5A10010143C /* GothamRoundedBook_21018.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBook_21018.ttf; sourceTree = "<group>"; };
+		13C88AD425ECD5A20010143C /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		13C88AD525ECD5A30010143C /* GothamRounded-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-MediumItalic.otf"; sourceTree = "<group>"; };
+		13C88AD625ECD5A30010143C /* GothamRounded-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BookItalic.otf"; sourceTree = "<group>"; };
+		13C88AD725ECD5A40010143C /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		13C88AD825ECD5A50010143C /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		13C88AD925ECD5A50010143C /* GothamRoundedLight_21020.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedLight_21020.ttf; sourceTree = "<group>"; };
+		13C88ADA25ECD5A60010143C /* GothamRoundedMedium_21022.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedMedium_21022.ttf; sourceTree = "<group>"; };
+		13C88ADB25ECD5A70010143C /* GothamRounded-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BoldItalic.otf"; sourceTree = "<group>"; };
+		13C88ADC25ECD5A80010143C /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		13C88ADD25ECD5A80010143C /* GothamRounded-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-LightItalic.otf"; sourceTree = "<group>"; };
+		13C88ADE25ECD5A90010143C /* GothamRoundedBold_21016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBold_21016.ttf; sourceTree = "<group>"; };
+		13C88AEC25ECD8EA0010143C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		13C88B7F25ED12490010143C /* SocialManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialManagerProtocol.swift; sourceTree = "<group>"; };
+		13C88B8625ED79720010143C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		13F7481625D62E1D0095A89D /* UniversityConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F7481925D62E1D0095A89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F7481B25D62E1D0095A89D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13F7481D25D62E1D0095A89D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13F7481D25D62E1D0095A89D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		13F7482025D62E1D0095A89D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13F7482225D62E200095A89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F7482525D62E200095A89D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +95,25 @@
 			path = BottomSheet;
 			sourceTree = "<group>";
 		};
+		13C88AD225ECD54B0010143C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13C88AD825ECD5A50010143C /* GothamRounded-Bold.otf */,
+				13C88ADB25ECD5A70010143C /* GothamRounded-BoldItalic.otf */,
+				13C88AD725ECD5A40010143C /* GothamRounded-Book.otf */,
+				13C88AD625ECD5A30010143C /* GothamRounded-BookItalic.otf */,
+				13C88ADC25ECD5A80010143C /* GothamRounded-Light.otf */,
+				13C88ADD25ECD5A80010143C /* GothamRounded-LightItalic.otf */,
+				13C88AD425ECD5A20010143C /* GothamRounded-Medium.otf */,
+				13C88AD525ECD5A30010143C /* GothamRounded-MediumItalic.otf */,
+				13C88ADE25ECD5A90010143C /* GothamRoundedBold_21016.ttf */,
+				13C88AD325ECD5A10010143C /* GothamRoundedBook_21018.ttf */,
+				13C88AD925ECD5A50010143C /* GothamRoundedLight_21020.ttf */,
+				13C88ADA25ECD5A60010143C /* GothamRoundedMedium_21022.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		13F7480D25D62E1D0095A89D = {
 			isa = PBXGroup;
 			children = (
@@ -84,18 +135,23 @@
 		13F7481825D62E1D0095A89D /* UniversityConnect */ = {
 			isa = PBXGroup;
 			children = (
+				13C88AD225ECD54B0010143C /* Fonts */,
 				135BB3FC25D93531004C1E89 /* BottomSheet */,
 				13F7483C25D63BC70095A89D /* Extensions */,
 				13F7485625D670B20095A89D /* GoogleService-Info.plist */,
 				13F7481925D62E1D0095A89D /* AppDelegate.swift */,
 				13F7481B25D62E1D0095A89D /* SceneDelegate.swift */,
-				13F7481D25D62E1D0095A89D /* ViewController.swift */,
+				13F7481D25D62E1D0095A89D /* LoginViewController.swift */,
 				13F7481F25D62E1D0095A89D /* Main.storyboard */,
 				13F7482225D62E200095A89D /* Assets.xcassets */,
 				13F7482425D62E200095A89D /* LaunchScreen.storyboard */,
 				13F7482725D62E200095A89D /* Info.plist */,
 				135BB3E225D88835004C1E89 /* User.swift */,
 				135BB3E525D92334004C1E89 /* HomeViewController.swift */,
+				13C88ACF25ECCA130010143C /* OnboardingViewController.swift */,
+				13C88AEC25ECD8EA0010143C /* SignUpViewController.swift */,
+				13C88B7F25ED12490010143C /* SocialManagerProtocol.swift */,
+				13C88B8625ED79720010143C /* Home.storyboard */,
 			);
 			path = UniversityConnect;
 			sourceTree = "<group>";
@@ -184,9 +240,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C88AE925ECD5A90010143C /* GothamRounded-LightItalic.otf in Resources */,
+				13C88AE725ECD5A90010143C /* GothamRounded-BoldItalic.otf in Resources */,
+				13C88AE225ECD5A90010143C /* GothamRounded-BookItalic.otf in Resources */,
+				13C88B8725ED79720010143C /* Home.storyboard in Resources */,
 				13F7485725D670B20095A89D /* GoogleService-Info.plist in Resources */,
+				13C88AEA25ECD5A90010143C /* GothamRoundedBold_21016.ttf in Resources */,
+				13C88AE325ECD5A90010143C /* GothamRounded-Book.otf in Resources */,
 				135BB3F925D93498004C1E89 /* BottomSheetViewController.xib in Resources */,
+				13C88AE125ECD5A90010143C /* GothamRounded-MediumItalic.otf in Resources */,
+				13C88AE825ECD5A90010143C /* GothamRounded-Light.otf in Resources */,
+				13C88AE525ECD5A90010143C /* GothamRoundedLight_21020.ttf in Resources */,
+				13C88ADF25ECD5A90010143C /* GothamRoundedBook_21018.ttf in Resources */,
 				13F7482625D62E200095A89D /* LaunchScreen.storyboard in Resources */,
+				13C88AE625ECD5A90010143C /* GothamRoundedMedium_21022.ttf in Resources */,
+				13C88AE025ECD5A90010143C /* GothamRounded-Medium.otf in Resources */,
+				13C88AE425ECD5A90010143C /* GothamRounded-Bold.otf in Resources */,
 				13F7482325D62E200095A89D /* Assets.xcassets in Resources */,
 				13F7482125D62E1D0095A89D /* Main.storyboard in Resources */,
 			);
@@ -242,10 +311,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				135BB3F425D931B3004C1E89 /* BottomViewController.swift in Sources */,
-				13F7481E25D62E1D0095A89D /* ViewController.swift in Sources */,
+				13F7481E25D62E1D0095A89D /* LoginViewController.swift in Sources */,
 				13F7481A25D62E1D0095A89D /* AppDelegate.swift in Sources */,
+				13C88AD025ECCA130010143C /* OnboardingViewController.swift in Sources */,
+				13C88B8025ED12490010143C /* SocialManagerProtocol.swift in Sources */,
 				13F7481C25D62E1D0095A89D /* SceneDelegate.swift in Sources */,
 				135BB3E325D88835004C1E89 /* User.swift in Sources */,
+				13C88AED25ECD8EA0010143C /* SignUpViewController.swift in Sources */,
 				13F7483E25D63BD60095A89D /* Extensions.swift in Sources */,
 				135BB3E625D92334004C1E89 /* HomeViewController.swift in Sources */,
 			);

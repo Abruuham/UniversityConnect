@@ -15,17 +15,16 @@ class HomeViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     @IBOutlet weak var map: MKMapView!
     
     let locationManager = CLLocationManager()
-    
-    
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         addBottomSheetView()
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("here ")
         self.map.delegate = self
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest

@@ -16,11 +16,11 @@ open class User{
     
     
     init(uid: String = "",
-         email: String = ""
-         ) {
-       
+         email: String = "",
+         username: String = "") {
         self.uid = uid
         self.email = email
+        self.username = username
     }
     
     
