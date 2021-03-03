@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        }
         if Auth.auth().currentUser != nil{
             print(Auth.auth().currentUser?.uid)
-            let vc = loginStoryboard.instantiateViewController (withIdentifier: "HomeViewController") as! HomeViewController
+            let vc = homeStoryboard.instantiateViewController (withIdentifier: "nav")
             window = UIWindow(windowScene: windowScene)
             window?.rootViewController = vc
             window?.makeKeyAndVisible()

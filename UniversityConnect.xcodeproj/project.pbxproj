@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133F6C3C25EF15D2009FE29C /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133F6C3B25EF15D2009FE29C /* Configs.swift */; };
 		135BB3E325D88835004C1E89 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3E225D88835004C1E89 /* User.swift */; };
 		135BB3E625D92334004C1E89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3E525D92334004C1E89 /* HomeViewController.swift */; };
 		135BB3F425D931B3004C1E89 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB3F325D931B3004C1E89 /* BottomViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		027E9B1785E5E1EBB0CB3CF9 /* Pods-UniversityConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityConnect.debug.xcconfig"; path = "Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		0946065D55C5AFA318F2426F /* Pods-UniversityConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversityConnect.release.xcconfig"; path = "Target Support Files/Pods-UniversityConnect/Pods-UniversityConnect.release.xcconfig"; sourceTree = "<group>"; };
+		133F6C3B25EF15D2009FE29C /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 		135BB3E225D88835004C1E89 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		135BB3E525D92334004C1E89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		135BB3F325D931B3004C1E89 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133F6C3A25EF15B9009FE29C /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				133F6C3B25EF15D2009FE29C /* Configs.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		135BB3FC25D93531004C1E89 /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 		13F7481825D62E1D0095A89D /* UniversityConnect */ = {
 			isa = PBXGroup;
 			children = (
+				133F6C3A25EF15B9009FE29C /* Misc */,
 				13C88B8A25EDBE040010143C /* Onboarding */,
 				13C88AD225ECD54B0010143C /* Fonts */,
 				135BB3FC25D93531004C1E89 /* BottomSheet */,
@@ -326,6 +337,7 @@
 				13F7481A25D62E1D0095A89D /* AppDelegate.swift in Sources */,
 				13C88AD025ECCA130010143C /* OnboardingViewController.swift in Sources */,
 				13C88B8025ED12490010143C /* SocialManagerProtocol.swift in Sources */,
+				133F6C3C25EF15D2009FE29C /* Configs.swift in Sources */,
 				13F7481C25D62E1D0095A89D /* SceneDelegate.swift in Sources */,
 				135BB3E325D88835004C1E89 /* User.swift in Sources */,
 				13C88B8C25EDEE0B0010143C /* Coordinates.swift in Sources */,
