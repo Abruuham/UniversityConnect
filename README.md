@@ -34,7 +34,11 @@
 <p align="center">
   <h2 align="center">Under Construction</h2>
   <a href="https://github.com/Abruuham/UniversityConnect">
-    <img src="wip.gif" width="800" height="500" align="center">
+<!--     <img src="wip.gif" width="800" height="500" align="center"> -->
+   <img src="IMG_0722.PNG" width="200" height="400" align="center"> 
+   <img src="IMG_0723.PNG" width="200" height="400" align="center"> 
+   <img src="IMG_0724.PNG" width="200" height="400" align="center"> 
+   <img src="IMG_0725.PNG" width="200" height="400" align="center"> 
   </a>
 
   <h1 align="center">University Connect</h1>
